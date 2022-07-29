@@ -5,4 +5,7 @@
             fetch="https://github.com/PadrePioUI"
             revision="padrepio-12.1" />
 
+    <!-- vendor -->
+    <project path="vendor/padrepio" name="android_vendor_padrepio" remote="PadrePioUI" />
+
 </manifest>
