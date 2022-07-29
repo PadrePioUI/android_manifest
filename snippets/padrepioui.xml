@@ -16,6 +16,9 @@
         <linkfile src="tools" dest="build/tools" />
     </project>
 
+    <!-- packages -->
+    <project path="packages/apps/HolyBiblePrebuilt" name="android_packages_apps_HolyBiblePrebuilt" remote="PadrePioUI" />
+
     <!-- vendor -->
     <project path="vendor/padrepio" name="android_vendor_padrepio" remote="PadrePioUI" />
 
