@@ -5,6 +5,17 @@
             fetch="https://github.com/PadrePioUI"
             revision="padrepio-12.1" />
 
+    <!-- android -->
+    <project path="build/make" name="android_build" remote="PadrePioUI" >
+        <copyfile src="core/root.mk" dest="Makefile" />
+        <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+        <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+        <linkfile src="core" dest="build/core" />
+        <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+        <linkfile src="target" dest="build/target" />
+        <linkfile src="tools" dest="build/tools" />
+    </project>
+
     <!-- vendor -->
     <project path="vendor/padrepio" name="android_vendor_padrepio" remote="PadrePioUI" />
 
